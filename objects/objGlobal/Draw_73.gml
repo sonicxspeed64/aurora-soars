@@ -13,3 +13,7 @@ draw_sprite_ext(sprHUDDpad,0,60,camy+180,1,1,0,c_white,1)
 draw_sprite_ext(sprHUDDpad,1,60,camy+180,sign(global.Right-global.Left),1,0,c_white,1)
 if global.Down != global.Up
 draw_sprite_ext(sprHUDDpad,1,60,camy+180,1,1,sign(global.Down-global.Up)*270,c_white,1)
+
+
+draw_sprite_ext(sprHUDDpad,2 + (global.Jump>-1),580,camy+110,1,1,0,c_white,1)
+draw_sprite_ext(sprHUDDpad,4 + (global.Kick>-1),580,camy+250,1,1,0,c_white,1)
