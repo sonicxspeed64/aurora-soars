@@ -1,0 +1,11 @@
+{
+  "FolderOrderSettings":[
+    {"name":"foldLevels","order":3,"path":"folders/foldLevels.yy",},
+    {"name":"foldObjects","order":2,"path":"folders/foldObjects.yy",},
+    {"name":"foldsprLevelDesign","order":1,"path":"folders/foldSprites/foldsprLevelDesign.yy",},
+    {"name":"foldScripts","order":1,"path":"folders/foldScripts.yy",},
+  ],
+  "ResourceOrderSettings":[
+    {"name":"objGlobal","order":1,"path":"objects/objGlobal/objGlobal.yy",},
+  ],
+}

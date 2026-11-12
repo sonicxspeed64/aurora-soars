@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scrInputPress",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scrInputPress",
+  "parent":{
+    "name":"foldScripts",
+    "path":"folders/foldScripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
