@@ -1,8 +1,12 @@
 /// @description In The Beginning...
 
-gradi = -1
+gradi = c_black
+bgcol = c_white
 if room = rmLevel1
-gradi = #E45C10
+{
+bgcol = #E45C10
+gradi = #FCA044
+}
 
 cont = 0
 //-1 = not pressed, 1 = pressed, 0 = held

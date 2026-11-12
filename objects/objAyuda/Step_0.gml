@@ -3,11 +3,11 @@
 
 if global.Right > global.Left
 {
-xspeed = 1
+xspeed = 2
 }
 else if global.Right < global.Left
 {
-xspeed = -1
+xspeed = -2
 }
 else
 {
@@ -16,11 +16,11 @@ xspeed = 0
 
 if global.Down > global.Up
 {
-yspeed = 1
+yspeed = 2
 }
 else if global.Down < global.Up
 {
-yspeed = -1
+yspeed = -2
 }
 else
 {
