@@ -9,6 +9,7 @@
   "ResourceOrderSettings":[
     {"name":"objGlobal","order":1,"path":"objects/objGlobal/objGlobal.yy",},
     {"name":"objMenu","order":2,"path":"objects/objMenu/objMenu.yy",},
+    {"name":"sprDreamCloud","order":2,"path":"sprites/sprDreamCloud/sprDreamCloud.yy",},
     {"name":"sprHUDDpad","order":1,"path":"sprites/sprHUDDpad/sprHUDDpad.yy",},
   ],
 }

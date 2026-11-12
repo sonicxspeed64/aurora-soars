@@ -34,6 +34,7 @@
     {"id":{"name":"rmMenu","path":"rooms/rmMenu/rmMenu.yy",},},
     {"id":{"name":"scrInputPress","path":"scripts/scrInputPress/scrInputPress.yy",},},
     {"id":{"name":"sprAyudaMask","path":"sprites/sprAyudaMask/sprAyudaMask.yy",},},
+    {"id":{"name":"sprDreamCloud","path":"sprites/sprDreamCloud/sprDreamCloud.yy",},},
     {"id":{"name":"sprHUDDpad","path":"sprites/sprHUDDpad/sprHUDDpad.yy",},},
     {"id":{"name":"sprSkyGradient","path":"sprites/sprSkyGradient/sprSkyGradient.yy",},},
   ],

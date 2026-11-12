@@ -6,6 +6,7 @@ if room = rmLevel1
 {
 bgcol = #E45C10
 gradi = #FCA044
+camyspeed = -2
 }
 
 cont = 0
