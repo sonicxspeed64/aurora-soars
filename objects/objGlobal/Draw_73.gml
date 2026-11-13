@@ -54,12 +54,25 @@ draw_sprite_ext(sprButtonFill,64,580,camy+110,1,1,90,#F8D8F8,1)
 }
 }
 }
+if circular > -1
+{
+for (k = 0; k < 360; k += 90)
+draw_sprite_ext(sprButtonRing,circular+1,580,camy+110,1,1,k,c_white,1)
+}
 
 draw_sprite_ext(sprHUDDpad,4 + (global.Kick>0),580,camy+250,1,1,0,c_white,1)
 
 
 
 if global.DEBUG
+{
+if keyboard_check(vk_shift)
+room_speed = 300
+else if keyboard_check(vk_numpad2)
+room_speed = 10
+else
+room_speed = 60
+
 if keyboard_check(vk_control)
 	or keyboard_check(92) //"command" on mac
 {
@@ -70,4 +83,5 @@ draw_hud(5,35,"Up: " + string(global.Up))
 
 draw_hud(123,32,"Pos: (" + string(objAyuda.x) + ", " + string(objAyuda.y) + ")")
 draw_hud(312,32,"Speeds: ")
+}
 }

@@ -15,8 +15,10 @@ else
 
 }
 
-if circular > 0
-circular = 0
+if circular > -1
+{
+circular --
+}
 
 
 if global.DEBUG

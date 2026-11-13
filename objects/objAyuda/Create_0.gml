@@ -12,5 +12,5 @@ skills = 3
 4 -  Boost Cancel
 5 - Body Ascension
 */
-boost = 0 //boost meter, 0-256
+boost = 0 + 256 //boost meter, 0-256
 boosting = 0 //time spent boosting

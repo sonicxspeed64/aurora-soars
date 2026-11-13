@@ -1,5 +1,5 @@
 
-function draw_hud(){
+function draw_hud(argument0,argument1,argument2){
 
 var camx = camera_get_view_x(view_camera[0]), camy = camera_get_view_y(view_camera[0]);
 
