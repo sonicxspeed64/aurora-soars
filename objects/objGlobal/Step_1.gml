@@ -1,6 +1,6 @@
 /// @description Inputs
 
-//i ain't doing custom controls this time have fun
+//i ain't doing custom controls this time korieteh have fun
 global.Right = scrInputPress(vk_right,ord("D"),gp_padr)
 global.Left = scrInputPress(vk_left,ord("A"),gp_padl)
 global.Down = scrInputPress(vk_down,ord("S"),gp_padd)

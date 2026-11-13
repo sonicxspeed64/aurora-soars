@@ -26,3 +26,7 @@ global.Pause = -1
 realviewx = 0
 realviewy = 2840
 
+global.DEBUG = true
+global.paused = false
+
+circular = 0 //effect when pressing the boost

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"draw_hud",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"draw_hud",
+  "parent":{
+    "name":"foldScripts",
+    "path":"folders/foldScripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
