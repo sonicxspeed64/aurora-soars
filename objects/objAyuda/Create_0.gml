@@ -14,3 +14,7 @@ skills = 3
 */
 boost = 0 + 256 //boost meter, 0-256
 boosting = 0 //time spent boosting
+
+dir = -1
+playable = true
+totspeed = 0

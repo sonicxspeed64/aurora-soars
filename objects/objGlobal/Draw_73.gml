@@ -95,6 +95,6 @@ draw_hud(5,25,"Down: " + string(global.Down))
 draw_hud(5,35,"Up: " + string(global.Up))
 
 draw_hud(123,32,"Pos: (" + string(objAyuda.x) + ", " + string(objAyuda.y) + ")")
-draw_hud(312,32,"Speeds: ")
+draw_hud(312,32,"Speeds: (" + string(objAyuda.xspeed) + ", " + string(objAyuda.yspeed) + "): [" + string(objAyuda.dir) + "]")
 }
 }
