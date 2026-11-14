@@ -18,3 +18,4 @@ boosting = 0 //time spent boosting
 dir = -1
 playable = true
 totspeed = 0
+trail = 0

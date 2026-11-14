@@ -6,6 +6,8 @@ if boosting > 0
 {
 if totspeed < 2
 totspeed += 0.25
+if trail < 2
+trail += 0.125
 
 dir = point_direction(0,0,xspeed,-yspeed)
 xspeed = dcos(dir) * totspeed
@@ -17,6 +19,7 @@ boosting --
 if boosting = 0
 {
 //back to default speeds
+trail = 0
 }
 }
 else
