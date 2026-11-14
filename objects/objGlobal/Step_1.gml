@@ -13,3 +13,20 @@ global.Kick = scrInputPress(ord("C"),ord("K"),gp_face3)
 global.Confirm = scrInputPress(ord("Z"),vk_space,gp_face2)
 global.Cancel = scrInputPress(ord("X"),vk_backspace,gp_face1)
 global.Pause = scrInputPress(ord("C"),vk_return,gp_start)
+
+//changing controller input
+if keyboard_check(vk_escape)
+for (k = 0; k < 10; k ++)
+if gamepad_button_check_pressed(k,gp_face1)
+{
+//if global.cont != k
+{
+global.cont = k
+ini_open("Ayuda.Win")
+ini_write_real("Controls","Port",k)
+ini_close()
+
+contshow = 200
+}
+break;
+}

@@ -16,9 +16,9 @@ else
 }
 
 if circular > -1
-{
 circular --
-}
+if contshow > 0
+contshow --
 
 
 if global.DEBUG

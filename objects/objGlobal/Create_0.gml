@@ -8,7 +8,9 @@ bgcol = #E45C10
 gradi = #FCA044
 }
 
-cont = 0
+global.cont = 0
+contshow = 0
+
 //-1 = not pressed, 1 = pressed, 0 = held
 global.Right = -1
 global.Left = -1
