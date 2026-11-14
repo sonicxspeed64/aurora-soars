@@ -9,11 +9,30 @@ draw_rectangle(0,camy,120,camy+360,false)
 draw_rectangle(520,camy,640,camy+360,false)
 draw_set_color(c_white)
 
+//dpad
+/*
 draw_sprite_ext(sprHUDDpad,0,60,camy+180,1,1,0,c_white,1)
 draw_sprite_ext(sprHUDDpad,1,60,camy+180,sign(global.Right-global.Left),1,0,c_white,1)
 if global.Down != global.Up
 draw_sprite_ext(sprHUDDpad,1,60,camy+180,1,1,sign(global.Down-global.Up)*270,c_white,1)
+*/
+draw_sprite(sprHUDDpad,6,60,camy+180)
 
+var xdir = 0, ydir = 0, thresh = 10;
+if global.Right != global.Left or global.Down != global.Up
+{
+xdir = sign(global.Right - global.Left)
+ydir = sign(global.Down - global.Up)
+}
+else if abs(gamepad_axis_value(global.cont,gp_axislh)) > 0.01 or abs(gamepad_axis_value(global.cont,gp_axislv)) > 0.01
+{
+var direc = point_direction(0,0,gamepad_axis_value(global.cont,gp_axislh),gamepad_axis_value(global.cont,gp_axislv));
+xdir = dcos(direc)
+ydir = -dsin(direc)
+thresh = point_distance(0,0,gamepad_axis_value(global.cont,gp_axislh),gamepad_axis_value(global.cont,gp_axislv)) * 10
+}
+
+draw_sprite(sprHUDDpad,7,60 + xdir*thresh,camy+180 + ydir*thresh)
 
 //right buttons
 if objAyuda.boost < 64 and !objAyuda.boosting
