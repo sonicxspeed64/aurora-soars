@@ -1,19 +1,25 @@
 {
   "FolderOrderSettings":[
-    {"name":"foldObjects","order":2,"path":"folders/foldObjects.yy",},
-    {"name":"foldRooms","order":3,"path":"folders/foldRooms.yy",},
+    {"name":"foldObjects","order":3,"path":"folders/foldObjects.yy",},
+    {"name":"foldRooms","order":4,"path":"folders/foldRooms.yy",},
     {"name":"foldrmLevels","order":1,"path":"folders/foldRooms/foldrmLevels.yy",},
-    {"name":"foldScripts","order":1,"path":"folders/foldScripts.yy",},
+    {"name":"foldScripts","order":2,"path":"folders/foldScripts.yy",},
+    {"name":"foldSounds","order":1,"path":"folders/foldSounds.yy",},
+    {"name":"foldSndFX","order":1,"path":"folders/foldSounds/foldSndFX.yy",},
     {"name":"foldFonts","order":2,"path":"folders/foldSprites/foldFonts.yy",},
     {"name":"foldsprLevelElements","order":1,"path":"folders/foldSprites/foldsprLevelElements.yy",},
   ],
   "ResourceOrderSettings":[
     {"name":"objGlobal","order":1,"path":"objects/objGlobal/objGlobal.yy",},
+    {"name":"objInputs","order":3,"path":"objects/objInputs/objInputs.yy",},
     {"name":"objMenu","order":2,"path":"objects/objMenu/objMenu.yy",},
     {"name":"draw_hud","order":1,"path":"scripts/draw_hud/draw_hud.yy",},
+    {"name":"play_sfx","order":2,"path":"scripts/play_sfx/play_sfx.yy",},
     {"name":"sprButtonFill","order":3,"path":"sprites/sprButtonFill/sprButtonFill.yy",},
     {"name":"sprButtonRing","order":4,"path":"sprites/sprButtonRing/sprButtonRing.yy",},
     {"name":"sprDreamCloud","order":2,"path":"sprites/sprDreamCloud/sprDreamCloud.yy",},
     {"name":"sprHUDDpad","order":1,"path":"sprites/sprHUDDpad/sprHUDDpad.yy",},
+    {"name":"sprIntroOwl","order":6,"path":"sprites/sprIntroOwl/sprIntroOwl.yy",},
+    {"name":"sprProf","order":5,"path":"sprites/sprProf/sprProf.yy",},
   ],
 }

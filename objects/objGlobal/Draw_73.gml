@@ -24,12 +24,11 @@ if global.Right != global.Left or global.Down != global.Up
 xdir = sign(global.Right - global.Left)
 ydir = sign(global.Down - global.Up)
 }
-else if abs(gamepad_axis_value(global.cont,gp_axislh)) > 0.01 or abs(gamepad_axis_value(global.cont,gp_axislv)) > 0.01
+else
 {
-var direc = point_direction(0,0,gamepad_axis_value(global.cont,gp_axislh),gamepad_axis_value(global.cont,gp_axislv));
-xdir = dcos(direc)
-ydir = -dsin(direc)
-thresh = point_distance(0,0,gamepad_axis_value(global.cont,gp_axislh),gamepad_axis_value(global.cont,gp_axislv)) * 10
+xdir = global.xdir
+ydir = global.ydir
+thresh = global.stickdis * 10
 }
 
 draw_sprite(sprHUDDpad,7,60 + xdir*thresh,camy+180 + ydir*thresh)
@@ -98,13 +97,6 @@ draw_hud(123,375 - slider,"Controller " + string(global.cont) + ": " + gamepad_g
 
 if global.DEBUG
 {
-if keyboard_check(vk_shift)
-room_speed = 300
-else if keyboard_check(vk_numpad2)
-room_speed = 10
-else
-room_speed = 60
-
 if keyboard_check(vk_control)
 	or keyboard_check(92) //"command" on mac
 {

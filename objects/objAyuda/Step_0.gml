@@ -45,16 +45,14 @@ dir = point_direction(0,0,dir,0)
 
 if dir = -1
 {
-if abs(gamepad_axis_value(global.cont,gp_axislh)) > 0.01 or abs(gamepad_axis_value(global.cont,gp_axislv)) > 0.01
+if global.stickdis > 0.01
 {
-dir = point_direction(0,0,gamepad_axis_value(global.cont,gp_axislh),gamepad_axis_value(global.cont,gp_axislv))
+dir = global.stickdir
 
-var push = point_distance(0,0,gamepad_axis_value(global.cont,gp_axislh),gamepad_axis_value(global.cont,gp_axislv));
-
-if abs(totspeed - push) <= 0.125
-totspeed = push
+if abs(totspeed - global.stickdis) <= 0.125
+totspeed = global.stickdis
 else
-totspeed += sign(push-totspeed) * 0.125
+totspeed += sign(global.stickdis-totspeed) * 0.125
 
 xspeed = dcos(dir) * totspeed
 yspeed = -dsin(dir) * totspeed
@@ -94,7 +92,7 @@ objGlobal.circular = 17
 totspeed = 1
 
 if global.Right = global.Left and global.Down = global.Up
-and abs(gamepad_axis_value(global.cont,gp_axislh)) <= 0.01 and abs(gamepad_axis_value(global.cont,gp_axislv)) <= 0.01
+and global.stickdis <= 0.01
 dir = 90
 }
 

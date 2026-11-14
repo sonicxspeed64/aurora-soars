@@ -14,6 +14,20 @@ global.Confirm = scrInputPress(ord("Z"),vk_space,gp_face2)
 global.Cancel = scrInputPress(ord("X"),vk_backspace,gp_face1)
 global.Pause = scrInputPress(ord("C"),vk_return,gp_start)
 
+//control stick
+if abs(gamepad_axis_value(global.cont,gp_axislh)) > 0.01 or abs(gamepad_axis_value(global.cont,gp_axislv)) > 0.01
+{
+global.stickdir = point_direction(0,0,gamepad_axis_value(global.cont,gp_axislh),gamepad_axis_value(global.cont,gp_axislv));
+global.xdir = dcos(global.stickdir)
+global.ydir = -dsin(global.stickdir)
+global.stickdis = point_distance(0,0,gamepad_axis_value(global.cont,gp_axislh),gamepad_axis_value(global.cont,gp_axislv))
+}
+else
+{
+global.stickdir = -90
+global.stickdis = 0
+}
+
 //changing controller input
 if keyboard_check(vk_escape)
 for (k = 0; k < 10; k ++)
