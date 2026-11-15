@@ -8,6 +8,12 @@ else
 {
 menu = -9
 }
+
+//staraptor
+if slidetime = 20
+play_sfx(sndMegaStaraptor)
+else if slidetime = 5
+play_sfx(sndDramaticJump)
 }
 else if menu = -9
 {
@@ -36,10 +42,21 @@ slidetime --
 else
 {
 menu = -6
-
+slidetime = 20
 }
 }
 else if menu = -6
+{
+if slidetime > 0
+slidetime --
+else
+{
+menu = -5
+slidetime = 200
+play_music(mscRuleTheWorld)
+}
+}
+else if menu = -5
 {
 
 }

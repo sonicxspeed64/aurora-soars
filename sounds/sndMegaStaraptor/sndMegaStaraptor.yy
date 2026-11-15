@@ -14,8 +14,8 @@
   "exportDir":"",
   "name":"sndMegaStaraptor",
   "parent":{
-    "name":"foldSndFX",
-    "path":"folders/foldSounds/foldSndFX.yy",
+    "name":"foldsndFX",
+    "path":"folders/foldSounds/foldsndFX.yy",
   },
   "preload":false,
   "resourceType":"GMSound",
