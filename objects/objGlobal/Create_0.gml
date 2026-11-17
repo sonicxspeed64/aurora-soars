@@ -8,7 +8,7 @@ bgcol = #E45C10
 gradi = #FCA044
 }
 
-instance_create_layer(0,0,0,objInputs)
+instance_create_layer(0,0,"Instances",objInputs)
 
 realviewx = 0
 realviewy = 2840

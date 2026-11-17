@@ -53,6 +53,7 @@
     {"id":{"name":"sprHUDDpad","path":"sprites/sprHUDDpad/sprHUDDpad.yy",},},
     {"id":{"name":"sprIntroOwl","path":"sprites/sprIntroOwl/sprIntroOwl.yy",},},
     {"id":{"name":"sprProf","path":"sprites/sprProf/sprProf.yy",},},
+    {"id":{"name":"sprQuittersNeverProsper","path":"sprites/sprQuittersNeverProsper/sprQuittersNeverProsper.yy",},},
     {"id":{"name":"sprSkyGradient","path":"sprites/sprSkyGradient/sprSkyGradient.yy",},},
   ],
   "resourceType":"GMProject",
