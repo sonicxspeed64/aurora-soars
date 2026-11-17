@@ -80,6 +80,9 @@ draw_sprite_ext(sprButtonRing,circular+1,580,camy+110,1,1,k,c_white,1)
 
 draw_sprite_ext(sprHUDDpad,4 + (global.Kick>0),580,camy+250,1,1,0,c_white,1)
 
+for (k = 0; k <= 3; k ++)
+draw_sprite(sprQuittersNeverProsper,k,20,camy+250+k*15)
+
 
 if global.DEBUG
 {

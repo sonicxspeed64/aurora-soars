@@ -13,12 +13,18 @@
   "For3D":false,
   "frames":[
     {"$GMSpriteFrame":"v1","%Name":"2fb8f2ea-2651-43ef-a776-2efef2ee685b","name":"2fb8f2ea-2651-43ef-a776-2efef2ee685b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"d8a2faca-5ce4-45ea-8cc2-5bbfc93b1b0d","name":"d8a2faca-5ce4-45ea-8cc2-5bbfc93b1b0d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"0462927c-f222-4d6a-af9e-7305a6558722","name":"0462927c-f222-4d6a-af9e-7305a6558722","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"e1d77cf5-2dce-4286-b8b0-50e13aa772ff","name":"e1d77cf5-2dce-4286-b8b0-50e13aa772ff","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":30,
   "HTile":false,
   "layers":[
+    {"$GMImageLayer":"","%Name":"9a036fcf-51e5-4148-ac22-3663dc5da9ca","blendMode":0,"displayName":"pasteLayer","isLocked":false,"name":"9a036fcf-51e5-4148-ac22-3663dc5da9ca","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"5ac54ab9-b71c-4f43-9254-199426c379d2","blendMode":0,"displayName":"pasteLayer","isLocked":false,"name":"5ac54ab9-b71c-4f43-9254-199426c379d2","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"210d7f68-6900-4701-89bf-5e731fde5155","blendMode":0,"displayName":"pasteLayer","isLocked":false,"name":"210d7f68-6900-4701-89bf-5e731fde5155","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
     {"$GMImageLayer":"","%Name":"c86b7dc1-362b-45ed-b14b-e9fd0abde097","blendMode":0,"displayName":"pasteLayer","isLocked":false,"name":"c86b7dc1-362b-45ed-b14b-e9fd0abde097","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
     {"$GMImageLayer":"","%Name":"c7952057-8997-4f1a-a553-205d98f76c57","blendMode":0,"displayName":"default","isLocked":false,"name":"c7952057-8997-4f1a-a553-205d98f76c57","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
@@ -50,7 +56,7 @@
     },
     "eventStubScript":null,
     "eventToFunction":{},
-    "length":1.0,
+    "length":4.0,
     "lockOrigin":false,
     "moments":{
       "$KeyframeStore<MomentsEventKeyframe>":"",
@@ -72,6 +78,15 @@
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"2fb8f2ea-2651-43ef-a776-2efef2ee685b","path":"sprites/sprQuittersNeverProsper/sprQuittersNeverProsper.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"daf14e22-b381-4f1c-aa87-ba6ffef14088","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"d8a2faca-5ce4-45ea-8cc2-5bbfc93b1b0d","path":"sprites/sprQuittersNeverProsper/sprQuittersNeverProsper.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"9af1cf20-715e-4e1f-ba6c-119c41ed767f","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"0462927c-f222-4d6a-af9e-7305a6558722","path":"sprites/sprQuittersNeverProsper/sprQuittersNeverProsper.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"4989ffad-8d81-4915-b020-b22c16abf6e7","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"e1d77cf5-2dce-4286-b8b0-50e13aa772ff","path":"sprites/sprQuittersNeverProsper/sprQuittersNeverProsper.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"e209f5f2-0e53-4ed8-a0cf-9adb01a1512c","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
