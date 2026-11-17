@@ -16,6 +16,7 @@
     {"name":"objMenu","order":2,"path":"objects/objMenu/objMenu.yy",},
     {"name":"draw_hud","order":1,"path":"scripts/draw_hud/draw_hud.yy",},
     {"name":"play_sfx","order":2,"path":"scripts/play_sfx/play_sfx.yy",},
+    {"name":"sndBoost","order":3,"path":"sounds/sndBoost/sndBoost.yy",},
     {"name":"sndCounterKick","order":1,"path":"sounds/sndCounterKick/sndCounterKick.yy",},
     {"name":"sprButtonFill","order":4,"path":"sprites/sprButtonFill/sprButtonFill.yy",},
     {"name":"sprButtonRing","order":5,"path":"sprites/sprButtonRing/sprButtonRing.yy",},

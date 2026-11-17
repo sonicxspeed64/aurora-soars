@@ -90,6 +90,7 @@ if global.Jump = 2
 boosting = 32
 objGlobal.circular = 17
 totspeed = 1
+play_sfx(sndBoost)
 
 if global.Right = global.Left and global.Down = global.Up
 and global.stickdis <= 0.01

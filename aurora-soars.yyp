@@ -43,6 +43,7 @@
     {"id":{"name":"play_sfx","path":"scripts/play_sfx/play_sfx.yy",},},
     {"id":{"name":"scrInputPress","path":"scripts/scrInputPress/scrInputPress.yy",},},
     {"id":{"name":"mscRuleTheWorld","path":"sounds/mscRuleTheWorld/mscRuleTheWorld.yy",},},
+    {"id":{"name":"sndBoost","path":"sounds/sndBoost/sndBoost.yy",},},
     {"id":{"name":"sndCounterKick","path":"sounds/sndCounterKick/sndCounterKick.yy",},},
     {"id":{"name":"sndDramaticJump","path":"sounds/sndDramaticJump/sndDramaticJump.yy",},},
     {"id":{"name":"sndMegaStaraptor","path":"sounds/sndMegaStaraptor/sndMegaStaraptor.yy",},},
