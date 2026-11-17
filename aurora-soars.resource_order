@@ -20,6 +20,7 @@
     {"name":"sprButtonFill","order":4,"path":"sprites/sprButtonFill/sprButtonFill.yy",},
     {"name":"sprButtonRing","order":5,"path":"sprites/sprButtonRing/sprButtonRing.yy",},
     {"name":"sprDreamCloud","order":3,"path":"sprites/sprDreamCloud/sprDreamCloud.yy",},
+    {"name":"sprDreamWings","order":1,"path":"sprites/sprDreamWings/sprDreamWings.yy",},
     {"name":"sprHUDDpad","order":1,"path":"sprites/sprHUDDpad/sprHUDDpad.yy",},
     {"name":"sprIntroOwl","order":7,"path":"sprites/sprIntroOwl/sprIntroOwl.yy",},
     {"name":"sprProf","order":6,"path":"sprites/sprProf/sprProf.yy",},

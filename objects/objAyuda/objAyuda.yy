@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sprAyudaMask",
-    "path":"sprites/sprAyudaMask/sprAyudaMask.yy",
+    "name":"sprAyuda",
+    "path":"sprites/sprAyuda/sprAyuda.yy",
   },
   "spriteMaskId":null,
   "visible":true,

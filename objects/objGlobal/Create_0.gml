@@ -16,3 +16,5 @@ realviewy = 2840
 global.paused = false
 
 circular = 0 //effect when pressing the boost
+
+global.step = 0

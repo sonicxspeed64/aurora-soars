@@ -17,3 +17,5 @@ else
 
 if circular > -1
 circular --
+
+global.step ++

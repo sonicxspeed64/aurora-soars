@@ -28,7 +28,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.14.4.221",
+    "IDEVersion":"2026.0.0.16",
   },
   "name":"aurora-soars",
   "resources":[
@@ -46,10 +46,11 @@
     {"id":{"name":"sndCounterKick","path":"sounds/sndCounterKick/sndCounterKick.yy",},},
     {"id":{"name":"sndDramaticJump","path":"sounds/sndDramaticJump/sndDramaticJump.yy",},},
     {"id":{"name":"sndMegaStaraptor","path":"sounds/sndMegaStaraptor/sndMegaStaraptor.yy",},},
-    {"id":{"name":"sprAyudaMask","path":"sprites/sprAyudaMask/sprAyudaMask.yy",},},
+    {"id":{"name":"sprAyuda","path":"sprites/sprAyuda/sprAyuda.yy",},},
     {"id":{"name":"sprButtonFill","path":"sprites/sprButtonFill/sprButtonFill.yy",},},
     {"id":{"name":"sprButtonRing","path":"sprites/sprButtonRing/sprButtonRing.yy",},},
     {"id":{"name":"sprDreamCloud","path":"sprites/sprDreamCloud/sprDreamCloud.yy",},},
+    {"id":{"name":"sprDreamWings","path":"sprites/sprDreamWings/sprDreamWings.yy",},},
     {"id":{"name":"sprHUDDpad","path":"sprites/sprHUDDpad/sprHUDDpad.yy",},},
     {"id":{"name":"sprIntroOwl","path":"sprites/sprIntroOwl/sprIntroOwl.yy",},},
     {"id":{"name":"sprProf","path":"sprites/sprProf/sprProf.yy",},},
