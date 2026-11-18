@@ -117,6 +117,30 @@ playable = true
 }
 }
 
+/*
+var totyspeed = yspeed + objGlobal.camyspeed;
+if place_meeting(x,y+totyspeed,objSolid)
+{
+if !place_meeting(x+abs(totyspeed),y+totyspeed,objSolid)
+{
+for (k = abs(totyspeed); k > 0; k --)
+if place_meeting(x+k,y+totyspeed,objSolid)
+{
+x += k + 1
+break;
+}
+}
+else if !place_meeting(x-abs(totyspeed),y+totyspeed,objSolid)
+{
+for (k = abs(totyspeed); k > 0; k --)
+if place_meeting(x-k,y+totyspeed,objSolid)
+{
+x -= k - 1
+break;
+}
+}
+}*/
+
 x += xspeed
 y += yspeed + objGlobal.camyspeed
 
