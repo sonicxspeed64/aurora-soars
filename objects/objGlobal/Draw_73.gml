@@ -33,12 +33,17 @@ thresh = global.stickdis * 10
 
 draw_sprite(sprHUDDpad,7,60 + xdir*thresh,camy+180 + ydir*thresh)
 
+for (k = 1; k < 3; k ++)
+draw_sprite(sprQuittersNeverProsper,k,13,camy+200+k*45)
+
 //right buttons
+draw_sprite_ext(sprHUDDpad,4 + (global.Kick>0),580,camy+240,1,1,0,c_white,1)
+
 if objAyuda.boost < 64 and !objAyuda.boosting
-draw_sprite_ext(sprHUDDpad,2,580,camy+110,1,1,0,#787878,1)
+draw_sprite_ext(sprHUDDpad,2,580,camy+120,1,1,0,#787878,1)
 else
 {
-draw_sprite_ext(sprHUDDpad,2 + (objAyuda.boosting>0),580,camy+110,1,1,0,c_white,1)
+draw_sprite_ext(sprHUDDpad,2 + (objAyuda.boosting>0),580,camy+120,1,1,0,c_white,1)
 }
 
 if objAyuda.boost < 64
@@ -47,41 +52,38 @@ var col = c_white;
 if objAyuda.boosting
 col = #F8D8F8
 
-draw_sprite_ext(sprButtonFill,objAyuda.boost,580,camy+110,1,1,0,col,1)
+draw_sprite_ext(sprButtonFill,objAyuda.boost,580,camy+120,1,1,0,col,1)
 }
 else
 {
-draw_sprite_ext(sprButtonFill,64,580,camy+110,1,1,0,#F8D8F8,1)
+draw_sprite_ext(sprButtonFill,64,580,camy+120,1,1,0,#F8D8F8,1)
 
 if objAyuda.boost < 128
-draw_sprite_ext(sprButtonFill,objAyuda.boost-64,580,camy+110,1,1,270,#F8D8F8,1)
+draw_sprite_ext(sprButtonFill,objAyuda.boost-64,580,camy+120,1,1,270,#F8D8F8,1)
 else
 {
-draw_sprite_ext(sprButtonFill,64,580,camy+110,1,1,270,#F8D8F8,1)
+draw_sprite_ext(sprButtonFill,64,580,camy+120,1,1,270,#F8D8F8,1)
 
 if objAyuda.boost < 192
-draw_sprite_ext(sprButtonFill,objAyuda.boost-128,580,camy+110,1,1,180,#F8D8F8,1)
+draw_sprite_ext(sprButtonFill,objAyuda.boost-128,580,camy+120,1,1,180,#F8D8F8,1)
 else
 {
-draw_sprite_ext(sprButtonFill,64,580,camy+110,1,1,180,#F8D8F8,1)
+draw_sprite_ext(sprButtonFill,64,580,camy+120,1,1,180,#F8D8F8,1)
 
 if objAyuda.boost < 256
-draw_sprite_ext(sprButtonFill,objAyuda.boost-192,580,camy+110,1,1,90,#F8D8F8,1)
+draw_sprite_ext(sprButtonFill,objAyuda.boost-192,580,camy+120,1,1,90,#F8D8F8,1)
 else
-draw_sprite_ext(sprButtonFill,64,580,camy+110,1,1,90,#F8D8F8,1)
+draw_sprite_ext(sprButtonFill,64,580,camy+120,1,1,90,#F8D8F8,1)
 }
 }
 }
 if circular > -1
 {
 for (k = 0; k < 360; k += 90)
-draw_sprite_ext(sprButtonRing,circular+1,580,camy+110,1,1,k,c_white,1)
+draw_sprite_ext(sprButtonRing,circular+1,580,camy+120,1,1,k,c_white,1)
 }
 
-draw_sprite_ext(sprHUDDpad,4 + (global.Kick>0),580,camy+250,1,1,0,c_white,1)
-
-for (k = 0; k <= 3; k ++)
-draw_sprite(sprQuittersNeverProsper,k,20,camy+250+k*15)
+draw_sprite_ext(sprQuittersNeverProsper,0,530,camy+20,1,1,0,c_white,1)
 
 
 if global.DEBUG
