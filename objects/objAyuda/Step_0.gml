@@ -117,7 +117,17 @@ playable = true
 }
 }
 
-/*
+if place_meeting(x+xspeed,y,objSolid)
+{
+for (k = ceil(abs(xspeed)); k > 0; k --)
+if !place_meeting(x+sign(xspeed)*k,y,objSolid)
+{
+x += sign(xspeed)*k
+break;
+}
+xspeed = 0
+}
+
 var totyspeed = yspeed + objGlobal.camyspeed;
 if place_meeting(x,y+totyspeed,objSolid)
 {
@@ -127,6 +137,7 @@ for (k = abs(totyspeed); k > 0; k --)
 if place_meeting(x+k,y+totyspeed,objSolid)
 {
 x += k + 1
+show_debug_message(k)
 break;
 }
 }
@@ -136,10 +147,15 @@ for (k = abs(totyspeed); k > 0; k --)
 if place_meeting(x-k,y+totyspeed,objSolid)
 {
 x -= k - 1
+show_debug_message(k)
 break;
 }
 }
-}*/
+else
+{
+yspeed = -objGlobal.camyspeed
+}
+}
 
 x += xspeed
 y += yspeed + objGlobal.camyspeed
