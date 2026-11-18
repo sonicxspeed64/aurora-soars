@@ -104,9 +104,21 @@ if boost < 256
 boost += 0.125
 }
 }
+else
+{
+if introtime > 0
+{
+introtime --
+if introtime = 0
+{
+yspeed = 0
+playable = true
+}
+}
+}
 
 x += xspeed
-y += yspeed
+y += yspeed + objGlobal.camyspeed
 
 if x < 123
 x = 123
