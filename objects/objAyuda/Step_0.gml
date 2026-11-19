@@ -131,30 +131,13 @@ xspeed = 0
 var totyspeed = yspeed + objGlobal.camyspeed;
 if place_meeting(x,y+totyspeed,objSolid)
 {
-if !place_meeting(x+abs(totyspeed),y+totyspeed,objSolid)
+for (k = ceil(abs(yspeed)); k > 0; k --)
+if !place_meeting(x,y-k,objSolid)
 {
-for (k = abs(totyspeed); k > 0; k --)
-if place_meeting(x+k,y+totyspeed,objSolid)
-{
-x += k + 1
-show_debug_message(k)
+y -= k
 break;
 }
-}
-else if !place_meeting(x-abs(totyspeed),y+totyspeed,objSolid)
-{
-for (k = abs(totyspeed); k > 0; k --)
-if place_meeting(x-k,y+totyspeed,objSolid)
-{
-x -= k - 1
-show_debug_message(k)
-break;
-}
-}
-else
-{
 yspeed = -objGlobal.camyspeed
-}
 }
 
 x += xspeed

@@ -28,7 +28,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.14.4.221",
+    "IDEVersion":"2026.0.0.16",
   },
   "name":"aurora-soars",
   "resources":[
@@ -49,6 +49,7 @@
     {"id":{"name":"sndDramaticJump","path":"sounds/sndDramaticJump/sndDramaticJump.yy",},},
     {"id":{"name":"sndMegaStaraptor","path":"sounds/sndMegaStaraptor/sndMegaStaraptor.yy",},},
     {"id":{"name":"sprAyuda","path":"sprites/sprAyuda/sprAyuda.yy",},},
+    {"id":{"name":"sprBlackSquare256","path":"sprites/sprBlackSquare256/sprBlackSquare256.yy",},},
     {"id":{"name":"sprBlock","path":"sprites/sprBlock/sprBlock.yy",},},
     {"id":{"name":"sprButtonFill","path":"sprites/sprButtonFill/sprButtonFill.yy",},},
     {"id":{"name":"sprButtonRing","path":"sprites/sprButtonRing/sprButtonRing.yy",},},

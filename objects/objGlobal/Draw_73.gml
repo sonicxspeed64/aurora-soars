@@ -2,12 +2,10 @@
 
 var camx = camera_get_view_x(view_camera[0]), camy = camera_get_view_y(view_camera[0]);
 
-draw_set_color(c_black)
-draw_rectangle(0,camy,640,camy+30,false)
-draw_rectangle(0,camy+330,640,camy+360,false)
-draw_rectangle(0,camy,120,camy+360,false)
-draw_rectangle(520,camy,640,camy+360,false)
-draw_set_color(c_white)
+draw_sprite_ext(sprBlackSquare256,0,0,camy-226,3,1,0,c_black,1)
+draw_sprite_ext(sprBlackSquare256,0,0,camy+330,3,1,0,c_black,1)
+draw_sprite_ext(sprBlackSquare256,0,120-256,camy,1,2,0,c_black,1)
+draw_sprite_ext(sprBlackSquare256,0,520,camy,1,2,0,c_black,1)
 
 //dpad
 /*

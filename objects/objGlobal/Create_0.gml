@@ -11,7 +11,7 @@ gradi = #D800CC//#FCA044
 instance_create_layer(0,0,"Instances",objInputs)
 
 realviewx = 0
-realviewy = 2840
+realviewy = 2880
 
 global.paused = false
 
