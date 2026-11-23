@@ -17,7 +17,7 @@ else if menu = -8
 draw_set_color(#f8b800)
 draw_line_width(0,164,640,164,slidetime)
 }
-else if menu > -8 and menu < 0
+else if menu > -8 and menu < -3
 {
 draw_set_color(#f8b800)
 draw_line_width(0,164,640,164,100)
@@ -30,11 +30,18 @@ draw_sprite_ext(sprProf,0,320+power(slidetime,2),164,1,1,0,c_white,1)
 
 
 
-if menu = -6 or menu = -5
+if menu = -6 or menu = -5 or menu = -4
 {
 draw_sprite_ext(sprProf,0,320,164,1,1,0,c_white,1)
 
 if menu = -5
 draw_hud(22,327,"David presents: a game")
 }
+}
+
+if blackscreen > 0
+{
+draw_set_alpha(blackscreen)
+draw_rectangle_color(0,0,640,360,c_black,c_black,c_black,c_black,false)
+draw_set_alpha(1)
 }

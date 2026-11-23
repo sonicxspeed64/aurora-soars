@@ -13,6 +13,7 @@
   "ResourceOrderSettings":[
     {"name":"objGlobal","order":1,"path":"objects/objGlobal/objGlobal.yy",},
     {"name":"objInputs","order":3,"path":"objects/objInputs/objInputs.yy",},
+    {"name":"objLevelSequencer","order":5,"path":"objects/objLevelSequencer/objLevelSequencer.yy",},
     {"name":"objMenu","order":2,"path":"objects/objMenu/objMenu.yy",},
     {"name":"objSolid","order":4,"path":"objects/objSolid/objSolid.yy",},
     {"name":"draw_hud","order":1,"path":"scripts/draw_hud/draw_hud.yy",},
@@ -29,5 +30,6 @@
     {"name":"sprIntroOwl","order":7,"path":"sprites/sprIntroOwl/sprIntroOwl.yy",},
     {"name":"sprProf","order":6,"path":"sprites/sprProf/sprProf.yy",},
     {"name":"sprQuittersNeverProsper","order":2,"path":"sprites/sprQuittersNeverProsper/sprQuittersNeverProsper.yy",},
+    {"name":"sprRef640360","order":3,"path":"sprites/sprRef640360/sprRef640360.yy",},
   ],
 }

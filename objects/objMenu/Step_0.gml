@@ -52,11 +52,23 @@ slidetime --
 else
 {
 menu = -5
-slidetime = 200
-play_music(mscRuleTheWorld)
+slidetime = 123
+//play_music(mscRuleTheWorld)
 }
 }
 else if menu = -5
+{
+if slidetime > 0
+slidetime --
+else
+{
+if blackscreen < 1.5
+blackscreen += 1/60
+else
+menu = -4
+}
+}
+else if menu = -4
 {
 
 }

@@ -96,5 +96,8 @@ draw_hud(5,35,"Up: " + string(global.Up))
 
 draw_hud(123,32,"Pos: (" + string(objAyuda.x) + ", " + string(objAyuda.y) + ")")
 draw_hud(312,32,"Speeds: (" + string(objAyuda.xspeed) + ", " + string(objAyuda.yspeed) + "): [" + string(objAyuda.dir) + "]")
+
+draw_hud(123,42,"Phase: " + string(objLevelSequencer.phase))
+draw_hud(312,42,"Fly To: " + string(objLevelSequencer.flyto[objLevelSequencer.phase]))
 }
 }

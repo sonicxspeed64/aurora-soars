@@ -28,7 +28,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2026.0.0.16",
+    "IDEVersion":"2024.14.4.221",
   },
   "name":"aurora-soars",
   "resources":[
@@ -36,6 +36,7 @@
     {"id":{"name":"objAyuda","path":"objects/objAyuda/objAyuda.yy",},},
     {"id":{"name":"objGlobal","path":"objects/objGlobal/objGlobal.yy",},},
     {"id":{"name":"objInputs","path":"objects/objInputs/objInputs.yy",},},
+    {"id":{"name":"objLevelSequencer","path":"objects/objLevelSequencer/objLevelSequencer.yy",},},
     {"id":{"name":"objMenu","path":"objects/objMenu/objMenu.yy",},},
     {"id":{"name":"objSolid","path":"objects/objSolid/objSolid.yy",},},
     {"id":{"name":"rmLevel1","path":"rooms/rmLevel1/rmLevel1.yy",},},
@@ -59,6 +60,7 @@
     {"id":{"name":"sprIntroOwl","path":"sprites/sprIntroOwl/sprIntroOwl.yy",},},
     {"id":{"name":"sprProf","path":"sprites/sprProf/sprProf.yy",},},
     {"id":{"name":"sprQuittersNeverProsper","path":"sprites/sprQuittersNeverProsper/sprQuittersNeverProsper.yy",},},
+    {"id":{"name":"sprRef640360","path":"sprites/sprRef640360/sprRef640360.yy",},},
     {"id":{"name":"sprSkyGradient","path":"sprites/sprSkyGradient/sprSkyGradient.yy",},},
   ],
   "resourceType":"GMProject",
