@@ -134,16 +134,24 @@ break;
 }
 xspeed = 0
 totspeed = point_distance(0,0,0,yspeed)
+
+if yspeed = 0
+{
+boost -= boosting * 2
+boosting = 0
+trail = 0
+}
 }
 
 if place_meeting(x,y+ceil(yspeed+objGlobal.camyspeed),objSolid)
+and 5=4
 {
 var totyspeed = ceil(yspeed + objGlobal.camyspeed);
 
 if totyspeed > 0
 y = floor(y)
 else
-y = ceil(y)
+y = floor(y)//ceil(y)
 
 for (k = abs(totyspeed); k > 0; k --)
 if !place_meeting(x,y+k,objSolid)
