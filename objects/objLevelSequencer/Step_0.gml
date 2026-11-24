@@ -30,5 +30,10 @@ flyto[0] = flyto[phase]
 phase ++
 }
 else
+{
 objGlobal.realviewy -= 3
+
+if objAyuda.y > flyto[phase - 1] + 46
+objAyuda.y = flyto[phase - 1] + 46
+}
 }
