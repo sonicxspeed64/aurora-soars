@@ -24,16 +24,16 @@ trail = 0
 }
 else
 {
-if global.Right > global.Left
+if global.Right > global.Left and !place_meeting(x+1,y,objSolid)
 dir = 1
-else if global.Right < global.Left
+else if global.Right < global.Left and !place_meeting(x-1,y,objSolid)
 dir = -1
 else
 dir = 0
 
-if global.Down > global.Up
+if global.Down > global.Up and !place_meeting(x+dir,y+1,objSolid)
 dir = point_direction(0,0,dir,1)
-else if global.Down < global.Up
+else if global.Down < global.Up and !place_meeting(x+dir,y-1,objSolid)
 dir = point_direction(0,0,dir,-1)
 else
 {
@@ -117,27 +117,43 @@ playable = true
 }
 }
 
-if place_meeting(x+xspeed,y,objSolid)
+if place_meeting(x+ceil(xspeed),y,objSolid)
 {
-for (k = ceil(abs(xspeed)); k > 0; k --)
+xspeed = ceil(xspeed)
+
+if xspeed > 0
+x = floor(x)
+else
+x = ceil(x)
+
+for (k = abs(xspeed); k > 0; k --)
 if !place_meeting(x+sign(xspeed)*k,y,objSolid)
 {
 x += sign(xspeed)*k
 break;
 }
 xspeed = 0
+totspeed = point_distance(0,0,0,yspeed)
 }
 
-var totyspeed = yspeed + objGlobal.camyspeed;
-if place_meeting(x,y+totyspeed,objSolid)
+if place_meeting(x,y+ceil(yspeed+objGlobal.camyspeed),objSolid)
 {
-for (k = ceil(abs(yspeed)); k > 0; k --)
-if !place_meeting(x,y-k,objSolid)
+var totyspeed = ceil(yspeed + objGlobal.camyspeed);
+
+if totyspeed > 0
+y = floor(y)
+else
+y = ceil(y)
+
+for (k = abs(totyspeed); k > 0; k --)
+if !place_meeting(x,y+k,objSolid)
 {
-y -= k
+y += k * sign(totyspeed)
 break;
 }
-yspeed = -objGlobal.camyspeed
+yspeed = 0
+y -= objGlobal.camyspeed
+totspeed = point_distance(0,0,xspeed,0)
 }
 
 x += xspeed
